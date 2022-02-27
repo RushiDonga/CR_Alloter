@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/names"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/cr"
+    android:drawablePadding="10dp"
+    android:fontFamily="monospace"
+    android:gravity="start"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:text="Members"
+    android:background="@drawable/election_background"
+    android:textColor="#1B1010"
+    android:textSize="15sp" />

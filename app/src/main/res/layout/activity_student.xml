@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#1d87e5"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_design"
+        android:gravity="center"
+        android:hint="Your Code here"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/code"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_custom"
+        android:layout_marginTop="10dp"
+        android:text=" Go --> "
+        android:textColor="#FFFF"
+         />
+
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1d87e5"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/code_incorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incorrect Code"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/go"
+        android:layout_marginTop="40dp"
+        android:textColor="#1d87e5"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textStyle="bold" />
+</RelativeLayout>

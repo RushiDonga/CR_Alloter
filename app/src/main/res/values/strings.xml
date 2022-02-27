@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CR Alloter</string>
+    <string name="the_name_of_the_child_you_removed_will_not_be_removed_from_the_list_but_at_the_time_of_result_his_her_vote_will_be_neglected">The name of the Child you removed will not be removed from the displayed List but at the time of Result his/her vote will be neglected</string>
+</resources>

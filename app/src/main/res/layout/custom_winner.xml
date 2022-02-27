@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/name_cr"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/user"
+            android:paddingLeft="10dp"
+            android:textSize="17sp"
+            android:gravity="center|left"
+            android:fontFamily="monospace"
+            android:drawablePadding="10dp"
+            android:background="@drawable/design_listview"
+            android:textColor="#212121"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/votes_cr"
+            android:background="@drawable/design_listview"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/cr"
+            android:drawablePadding="5dp"
+            android:textColor="#212121"
+            android:gravity="left|center"
+            android:fontFamily="monospace"
+            android:textSize="17sp"
+            android:layout_alignRight="@id/name_cr"
+            android:layout_alignEnd="@id/name_cr"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

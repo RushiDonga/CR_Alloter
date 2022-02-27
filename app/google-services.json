@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140410233680",
+    "firebase_url": "https://cralloter-56c59.firebaseio.com",
+    "project_id": "cralloter-56c59",
+    "storage_bucket": "cralloter-56c59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140410233680:android:a84bcb023017f5aa2e4255",
+        "android_client_info": {
+          "package_name": "com.scupe.cralloter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140410233680-9lnm0kgtsm9nudfh5qv1q61dh1h1ac51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scupe.cralloter",
+            "certificate_hash": "7dcb0015d44f0489e197fe3c3e1de8c4a2824a53"
+          }
+        },
+        {
+          "client_id": "140410233680-ccuqdmcpb06imskql9p3kmr4p1djkcbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1qyqaFJSydsHanA-Z1X1JH6HhDCZJ5Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140410233680-ccuqdmcpb06imskql9p3kmr4p1djkcbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

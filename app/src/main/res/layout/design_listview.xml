@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:id="@+id/memberNames"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textStyle="bold"
+    android:text="All Members"
+    android:drawablePadding="10dp"
+    android:textSize="15sp"
+    android:drawableLeft="@drawable/member"
+    android:paddingLeft="20dp"
+    android:gravity="left|center"
+    android:fontFamily="monospace"
+    android:background="@drawable/design_listview"
+    android:textColor="#212121"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

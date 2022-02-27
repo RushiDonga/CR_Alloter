@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".teacher_AllStudents">
+
+    <ImageView
+        android:id="@+id/image"
+        android:visibility="invisible"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/empty"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/almendra"
+        android:gravity="center"
+        android:text="Oops...! \nNo one has Joined Yet"
+        android:textColor="#1d87e5"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <androidx.cardview.widget.CardView
+            android:visibility="invisible"
+            android:id="@+id/dialogue"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#1d87e5">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/secret"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_name_of_the_child_you_removed_will_not_be_removed_from_the_list_but_at_the_time_of_result_his_her_vote_will_be_neglected"
+                android:textColor="#fff"
+                android:fontFamily="monospace"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_marginTop="95dp"/>
+
+            <Button
+                android:id="@+id/gotIt"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/dialogue_button"
+                android:text="Got it"
+                android:textColor="#424242"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:text="Total Students : Updating..."
+        android:textColor="#212"
+        android:background="#9fa8da" />
+
+    <ListView
+        android:dividerHeight="5dp"
+        android:divider="#fff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/total"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
+
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="No Internet Connection"
+        android:textColor="#fff" />
+
+</RelativeLayout>

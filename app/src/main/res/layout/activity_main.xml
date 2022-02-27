@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#1e88e5"
+        android:text="Wel Come to CR Alloter"
+        android:paddingBottom="100dp"
+        android:textColor="#FFFF"
+        android:textSize="25sp"
+        android:gravity="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elect Your CR within Clicks \nThank You"
+        android:paddingTop="80dp"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:hint="Name"
+        android:drawableLeft="@drawable/user"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border_design"/>
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:background="@drawable/border_design"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:drawableLeft="@drawable/you">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="#FFFF"
+        android:text="Let's Go"
+        android:textSize="17sp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="monospace"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true" >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/correct_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Improper Name"
+        android:textSize="18sp"
+        android:textColor="#1d87e5"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#1e88e5"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="#fff" />
+
+</RelativeLayout>
